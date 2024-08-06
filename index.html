@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Форма авторизации</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="visually-hidden">Форма авторизации</h1>
+      <div class="wrapper">
+        <div class="container container-form">
+          <div class="background-svg"></div>
+          <h2 class="title">Войдите или создайте Zveno ID</h2>
+          <form class="form" id="form" action="/">
+            <div class="form__block-input">
+              <div class="form__input-label">
+                <input
+                  class="form__input"
+                  id="input-email"
+                  type="email"
+                  name="email"
+                  placeholder=""
+                  aria-label="Введите адрес электронной почты"
+                  required
+                >
+                <label class="form__label" id="label-email" for="input-email"
+                  >Электронная почта</label
+                >
+              </div>
+              <div class="form__input-label">
+                <input
+                  class="form__input"
+                  id="input-password"
+                  type="password"
+                  name="password"
+                  placeholder=""
+                  aria-label="Введите пароль"
+                  required
+                >
+                <label
+                  class="form__label"
+                  id="label-password"
+                  for="input-password"
+                  >Пароль</label
+                >
+              </div>
+            </div>
+            <button class="form__button" type="submit" aria-label="Войти">
+              Войти
+            </button>
+          </form>
+        </div>
+        <div class="container contacts">
+          <p class="contacts__desc">Связаться с нами:</p>
+          <div class="block-contacts">
+            <a class="contacts__link" href="help@zveno.io">help@zveno.io</a>
+            <a class="contacts__link" href="tel:+79050721163"
+              >+7 905-072-11-63</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <script defer src="main.js"></script>
+  </body>
+</html>
