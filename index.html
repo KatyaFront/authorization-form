@@ -19,33 +19,39 @@
               <div class="form__input-label">
                 <input
                   class="form__input"
-                  id="input-email"
+                  id="email"
                   type="email"
                   name="email"
                   placeholder=""
                   aria-label="Введите адрес электронной почты"
                   required
                 >
-                <label class="form__label" id="label-email" for="input-email"
+                <label class="form__label" id="label-email" for="email"
                   >Электронная почта</label
                 >
               </div>
               <div class="form__input-label">
                 <input
                   class="form__input"
-                  id="input-password"
+                  id="password"
                   type="password"
                   name="password"
                   placeholder=""
                   aria-label="Введите пароль"
                   required
                 >
-                <label
-                  class="form__label"
-                  id="label-password"
-                  for="input-password"
+                <label class="form__label" id="label-password" for="password"
                   >Пароль</label
                 >
+                <span class="form__span" id="show-password">
+                  <img
+                    id="img-eye"
+                    src="/images/eye.svg"
+                    width="20"
+                    height="20"
+                    alt="Показать пароль"
+                  >
+                </span>
               </div>
             </div>
             <button class="form__button" type="submit" aria-label="Войти">

@@ -173,6 +173,24 @@ a {
   }
 }
 
+.form__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.open-close-eye {
+  transform: rotate(180deg);
+  transform-origin: center center;
+}
+
 .form__button {
   padding: 18px 0px;
   font-weight: 700;
